@@ -1,0 +1,26 @@
+git init -  cria um novo repositório
+
+gid add . - add todas as alterações do diretório
+
+git commit -m "mensagem"  - cria mensagem de confirmação especificada para a alteração
+
+git branch -M main  - Muda o nome da branch principal para main
+
+git log  - mostra o histórico de commits
+
+git status  - mostra informações como: arquivos modificados, arquivos adicionados a stagin area, arquivos que foram removidos, entre outros
+
+git reset --hard HEAD~1  - Desfaz o ultimo commit e atualiza o estado do repositório
+
+
+git remote add origin gitHub.com - conecta o repositório Git com o repositório remoto, indicado por uma URL
+
+git push -u origin main  - envia as alterações do repositório local para o repositório remoto
+
+git clone gitHub.com  - cria uma copia de um repositório Git remoto em seu computador
+
+git pull  - atualiza o repositório local conforma as alterações feitas
+
+git push origin main  - envia os commits local para o repositório remoto, da branch main
+
+git show 010101 -  mostra mais detalhes do commit
